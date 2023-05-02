@@ -1,0 +1,14 @@
+[package]
+name = "emu6502"
+version = "2023.4.27"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+speedy2d = "1.12.0"
+clap = { version = "4.0", features = ["derive"] }
+
+[profile.dev]
+overflow-checks = false
