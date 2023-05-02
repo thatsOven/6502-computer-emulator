@@ -142,8 +142,6 @@ impl WindowHandler for Emu {
                     }
                 }
             }
-            
-            (*self.mapper.borrow_mut()).fbuf_changed = false;
         }
 
         self.timer = Instant::now();
