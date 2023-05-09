@@ -1,5 +1,3 @@
-#![allow(unused)] // remove
-
 pub const NOP: u8 = 0xea;
 
 pub const LDA_IMMEDIATE  : u8 = 0xa9;
